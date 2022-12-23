@@ -1,0 +1,20 @@
+.footer div{
+    color: #fff;
+    text-align: center;
+    align-self: start;
+}
+
+.footer ul{
+    display: inline-block;
+
+    text-align: left;
+}
+
+.footer-link{
+    font-size: 16px;
+}
+
+.copyright{
+    color: #fff;
+    background: #15171a;
+}

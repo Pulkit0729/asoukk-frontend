@@ -1,0 +1,118 @@
+  .product-image-wrapper{
+    position: relative;
+    height: 300px;
+    text-align: center;
+  }
+  .product-image-wrapper img{
+    object-fit: contain;
+    max-width:100%;
+    height: -webkit-fill-available;
+  }
+
+  .product-name{
+    font-size:14px;
+    color:#212121;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  .product-short{
+    font-size: 12px;
+    color:#878778;
+    padding-bottom: 5px;
+  }
+  .product-rating{
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+  }
+  .product-mrp{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #878787;
+  }
+  .product-review{
+    padding-left: 8px;
+    font-weight: 500;
+    color: #878787;
+    font-size: 14px;
+  }
+  .product-price{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+  }
+  .product-offer{
+    color: #388e3c;
+      font-size: 15px;
+      letter-spacing: -.2px;
+      font-weight: 500;
+  }
+
+  .product-store{
+    position: relative;
+    background-color: #f1f3f6;
+    height:30px
+  }
+  .product-store img{
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .product-store a{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff !important;
+    transform: translate(-50%, -50%);
+    margin: auto;
+  }
+  .product3{
+    justify-content:space-between
+  }
+  .product3-wraper{
+    width: 80%;
+  }
+
+  @media(max-width:770px) {
+    .product3-wraper{
+      width: 100%;
+    }
+  }
+.product3:hover .product-store img {
+  display: none;
+}
+.product3:hover .product-store {
+  background-color: #212121;
+}
+.product3:hover .product-store a {
+  display: inline-block;
+}
+
+   /* Product Card3 */
+
+   .item-remove{
+    /* position: absolute; */
+    border-radius: 20px;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    background-color: rgba(206, 206, 206, 0.6);
+    text-align: center;
+    color: rgb(58, 57, 57)
+   }
+
+   .item-remove span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+   }

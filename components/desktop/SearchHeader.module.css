@@ -1,0 +1,38 @@
+.sort-list{
+    width: 255px;
+    background-color: #fff;
+    position: absolute;
+    top: 33px;
+    left: -1px;
+    margin: 0;
+    padding: 16px 0;
+    z-index: 2;
+    display: none;
+    border: 1px solid #d4d5d9;
+    border-top: none;
+    -webkit-box-shadow: 0 8px 10px 0 rgb(0 0 0 / 8%);
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 8%);
+}
+.dropdown:hover .sort-list{
+    display: block !important; 
+}
+
+.dropdown svg{
+    width: 10px;
+    margin-left: auto;
+}
+
+.dropdown label{
+    display: block;
+    font-size: 14px;
+    color: #282c3f;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.dropdown label:hover{
+   background: #f5f5f6;
+}
+.dropdown input{
+    visibility: hidden;
+    display: none;
+}

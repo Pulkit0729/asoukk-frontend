@@ -1,0 +1,27 @@
+.deals{
+    background:#fff;
+}
+
+.home{
+    background-color: #f1f3f6;
+}
+
+.header{
+    color: #fff;
+    height:65vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),  url('../public/bg.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+  }
+  .example{
+    font-size: 14px;
+    font-weight:200;
+    opacity: 0.5;
+  }

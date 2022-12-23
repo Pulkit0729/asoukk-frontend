@@ -1,0 +1,42 @@
+.store img{
+    position:absolute;
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.store div{
+    position:relative;
+    vertical-align:center;
+    height: 90px;
+}
+
+.store:hover p{
+    /* height: 100%;
+    width: 100%; */
+    display:block;
+}
+.store:hover img{
+    display:none;
+}
+.store:hover div {
+    background-color: rgb(73, 29, 29);
+}
+.store span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.store p{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}

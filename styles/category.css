@@ -1,0 +1,25 @@
+.category {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space:nowrap;
+    background-color: rgba(95, 158, 160, 0.116)
+  }
+  .category::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .category-tile{
+    display: inline-block;
+      margin-right: 3.6%;
+      font-size: 14px;
+      font-weight: 500;
+    
+  }
+  .category-tile a{
+    display:flex;
+    flex-direction:column;
+    padding: 11% 6% 11% 11%;
+  }
+  .category-tile img{
+    width: 64px;
+  }

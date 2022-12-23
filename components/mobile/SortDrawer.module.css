@@ -1,0 +1,19 @@
+.sort-list{
+    width: 100%;
+    background-color: #fff;
+    padding:  0;
+}
+.sort-list label{
+    display: block;
+    font-size: 15px;
+    color: #282c3f;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.sort-list label:hover{
+   background: #f5f5f6;
+}
+.sort-list input{
+    visibility: hidden;
+    display: none;
+}
